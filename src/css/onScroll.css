@@ -1,0 +1,18 @@
+.scroll_indicator {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+}
+
+.progress-container {
+    background: linear-gradient(to left, #009E77 , #5C47DF);
+    height: 0.25rem;
+    width: 100%;
+}
+
+.progress-bar {
+    background: white;
+    height: 0.25rem;
+    width: 0%;
+}

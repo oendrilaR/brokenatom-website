@@ -1,0 +1,128 @@
+
+
+
+#contact {
+  /* position: absolute; */
+  /* right: 600px; */
+  /* height: 100vh; */
+  /* right: 900px; */
+  /* bottom: 600px; */
+  padding-top: 9rem;
+  padding-bottom: 13.5rem;
+  /* padding: 9rem 12.75rem 10rem 13.5rem; */
+  background: #FFFFFF;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  font-weight: 450;
+  line-height: 4.2rem;
+  letter-spacing: -2%;
+  color: #02021A;
+  padding-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-heading {
+    justify-content: center;
+    padding-top: 2rem;
+    /* border: 2px solid firebrick; */
+  }
+}
+@media screen and (max-width: 820px) {
+  .contact-heading {
+    padding-top: 3rem;
+  }
+}
+
+
+.contact div {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #3F3F57;
+  padding-bottom: 0.375rem;
+  width: 15.125rem;
+}
+
+  .contact input {
+    width: 85%;
+    height: 2.75rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 145%;
+    padding: 0.625rem 0.875rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: #F9F9FF;
+    border: 0.063rem solid #B5B5B5;
+    margin-bottom: 1.5rem;
+  }
+
+  @media screen and (max-width: 820px) {
+    .contact input {
+      width: 100%;
+    }
+  }
+  
+  .contact textarea {
+    width: 85%;
+  }
+
+  @media screen and (max-width: 820px) {
+    .contact textarea {
+      width: 100%;
+    }
+  }
+  
+  .contact input:focus {
+    border: 0.063rem solid #00CC99;
+    box-shadow: 0 0 0 5px rgb(175, 236, 209);
+    background: #F9F9FF;
+  }
+  
+  .contact textarea {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 145%;
+    color: #3F3F57;
+    padding: 0.625rem 0.875rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: #F9F9FF;
+  }
+  
+  .contact textarea:focus {
+      border: 0.063rem solid #00CC99;
+      box-shadow: 0 0.063rem 0.125rem rgba(16, 24, 40, 0.05), 0 0 0 0.25rem #AFECDA;
+  }
+  
+  .contact-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-button button{
+    background: #009E77;
+    border: 0.063rem solid #009E77;
+    border-radius: 0.5rem;
+    width: 11.25rem;
+    height: 3.125rem;
+    margin-top: 25%;
+  }
+  
+  .contact-button:hover button {
+    background: #0C8265;
+    }
+    
+    .contact-button:focus button {
+      background: #00CC99;
+      border: 0.063rem solid #00CC99;
+       box-shadow: 0 0 0 5px rgb(175, 236, 209);
+    }

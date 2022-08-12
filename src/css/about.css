@@ -1,0 +1,220 @@
+.about {
+  padding-bottom: 3rem;
+  /* background: #FFFFFF; */
+  background: transparent;
+}
+
+.about-row {
+  padding-top: 5%;
+  padding-right: 2%;
+}
+
+
+.about-h {
+  padding-top: 4%;
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: 450;
+  line-height: 3.9rem;
+  letter-spacing: -2%;
+  color: #02021A;
+}
+
+@media screen and (max-width: 480px) {
+  .about-h {
+    padding-top: 6rem;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    color: #02021A;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-h {
+    padding-top: 6rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-p {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-p {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+
+
+.about-p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.813rem;
+  color: #86869A;
+}
+
+
+
+ /* card */
+
+ .people-group{
+   padding-left: 0.75rem;
+   padding-bottom: 0.75rem;
+   justify-content: center;
+ }
+
+
+
+ .card-box-container{
+    padding-left: 0 !important;
+    padding-right: 0.875rem !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0 !important;
+    justify-content: center;
+    display: flex;
+ }
+
+ 
+  .card-box {
+    text-align: center;
+    background-color: #F9F9FF;
+    transition: 0.5s;
+    border-radius: 2rem;
+    max-width: 400px;
+  }
+
+  .card-box:hover {
+    box-shadow: 0 0 64px -12px rgba(16, 24, 40, 0.14);
+  }
+
+  @media screen and (min-width: 800px) {
+    .card-box {
+      text-align: center;
+      background-color: #F9F9FF;
+      transition: 0.5s;
+      border-radius: 2rem;
+      max-width: 200px;
+    }
+  
+  }
+
+ 
+
+  .image__about {
+    position: relative;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    /* justify-content: center; */
+  }
+
+  .profile_pic {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+  }
+
+  .profile_details {
+    padding: 0.5rem 0 1rem 1.25rem ;
+  }
+
+  .about_profile_img {
+    opacity: 1;
+    transition: .5s ease;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    /* height:100px; */
+    width:100px;
+  }
+
+  .image__about:hover .image__img {
+    transform: scale(0.90);
+    transition: 0.5s ease;
+    opacity: 1;
+  }
+
+  .linkedin-icon{
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 68px;
+    left: 68px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(102.32deg, #3CDEC3 1.19%, #A89AFF 99.95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .linkedin-icon i {
+    color: white;
+    font-size: 0rem;
+  }
+
+  .image__about:hover .linkedin-icon i{
+    font-size: 1.30rem;
+  }
+
+  .image__about:hover .linkedin-icon {
+    opacity: 1;
+    z-index: 1;
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .card-details {
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 145%;
+    text-align: left;
+    font-size: 1rem;
+    min-height: 8rem;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid navy; */
+  }
+
+  .name {
+    font-family: 'Inter';
+    color: #3F3F57 ;
+    font-weight: 600;
+  }
+  
+  .college {
+    font-family: 'Inter';
+    font-size: 0.91rem;
+    color: #86869A;
+  }
+  
+  .position {
+    font-family: 'Inter';
+    background: linear-gradient(103.17deg, #00CC99 0%, #745EFE 99.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .about_blur {
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  
+
+ 
+
+ 
+
+  
